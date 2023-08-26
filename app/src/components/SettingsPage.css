@@ -1,0 +1,60 @@
+.SettingsPage{
+    background-color: rgba(28, 104, 175, 0.158);
+    min-height: 100vh;
+    height: auto;
+}
+
+.borderSettings {
+    position: absolute;
+    margin-top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 80vh;
+    border: 1px solid #14599f;
+    -moz-box-shadow: 0 0 5px 2px #054071;
+	-webkit-box-shadow: 0 0 5px 2px #054071;
+	box-shadow: 0 0 5px 1px #054071;
+    border-radius: 5px;
+    background-color: #14599f;
+  }
+
+  .settings button {
+    background-color: #fff;
+    color: #14599f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .colourBtn{
+    margin-top: 10%;
+  }
+
+  .wheel{
+margin-top: 5%;
+margin-left: 29.5vh;
+  }
+
+  .imgBtn{
+    margin-top: 10%;
+    color: white;
+  }
+
+  .applyBtn{
+    margin-top: 5%;
+  }
+
+
+.SettingsPage .notLogged a{
+    font-size:  30px;
+    color: #000;
+  }
+
+  .SettingsPage .notLogged a:hover{
+    font-size:  30px;
+    color: #3f3737;
+  }

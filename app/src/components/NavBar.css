@@ -1,0 +1,55 @@
+/**
+ * CSS for the NavBar component
+ * 
+ * @author Cristian Mitoi
+ */
+
+.navbar{
+    background-color: #2587dd;
+    border-color: black;
+    border-radius: 8px;
+    position: absolute;
+  }
+
+.logOut{
+margin-left: 90%;
+position: absolute;
+}
+
+.username{
+    margin-right: 11%;
+    position: relative;
+    color: #fff;
+}
+
+.logOut button{
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.logOut button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.logOut button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }

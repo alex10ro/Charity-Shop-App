@@ -1,0 +1,169 @@
+/**
+ * CSS for the HomePage component
+ * 
+ * @author Cristian Mitoi
+ */
+
+
+.HomePage {
+    background-color: rgba(28, 104, 175, 0.158);
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+}
+
+.HomePage.expanded {
+    min-height: 115vh;
+    height: auto;
+}
+
+.instructions{
+    margin-top: 3%;
+    margin-left: 70%;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #3780ee;
+}
+
+.IDs {
+    margin-top: 20%;
+}
+
+.IDs button {
+    background: url('img/camera.png') 8px center no-repeat;
+    padding-left: 200px;
+    align-items: center;
+    background-color: #3780ee;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 500;
+    height: 28px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 28px;
+    padding-left: 40px;
+}
+
+.scanner{
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 10px;
+    align-items: center;
+    background-color: #3780ee;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 500;
+    height: 28px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 28px;
+}
+
+.messageBox {
+    margin-top: 40%;
+}
+
+.messageBox textarea {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+.messageBox.show textarea {
+    color: rgba(0, 0, 0, 1);
+}
+
+.HomePage.expanded .messageBox {
+    margin-top: -60%;
+}
+
+.alert {
+    bottom: 81vh;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+textarea {
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.productText {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.confirmButton,
+.cancelButton {
+    margin-top: 10px;
+    align-items: center;
+    padding: 3px 15px 2px 15px;
+    border-radius: 20px;
+    color: #0753aa;
+    background: #f7f5f5;
+    border: 1px solid #ece8e8;
+}
+
+.confirmButton {
+    margin-right: 10px;
+}
+
+.cancelButton {
+    margin-left: 10px;
+}
+
+.instructionsBtn{
+    align-items: center;
+    padding: 3px 15px 2px 15px;
+    border-radius: 20px;
+    color: #0753aa;
+    background: #f7f5f5;
+    border: 1px solid #ece8e8;
+}
+
+@media screen and (min-width: 1000px) {
+    .IDs {
+        margin-top: 5%;
+    }
+
+    .messageBox {
+        margin-top: 10%;
+    }
+
+    .HomePage.expanded .messageBox {
+        margin-top: 2%;
+    }
+
+    .HomePage.expanded {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .scanner{
+        margin-left: 23rem;
+    }
+}

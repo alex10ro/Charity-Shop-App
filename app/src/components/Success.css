@@ -1,0 +1,22 @@
+/**
+ * CSS for the Success component
+ * 
+ * @author Cristian Mitoi
+ */
+
+
+.Success{
+    background-color: rgba(28, 104, 175, 0.158);
+    height: 100vh;
+}
+
+.Success .message{
+    margin-top: 100px;
+    color: black;
+    font-size: 18px; 
+}
+
+.Success .message a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}

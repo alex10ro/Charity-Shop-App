@@ -1,0 +1,131 @@
+/**
+ * CSS for the LogIn component
+ * 
+ * @author Cristian Mitoi
+ */
+
+
+.LogIn{
+    background-color: #1767a1;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+.Inputs{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+ .user{
+    margin-top: 5%;
+    margin-left: 150px;
+    }
+
+ .pass{
+    margin-left: 150px;
+}
+
+
+.Inputs input {
+    border-radius: 5px;
+    border-style:none;
+}
+
+input#username, input#password {
+	padding-left: 20px;
+}
+
+input#username {
+	background: #ffffff url('img/username.png') 4px center no-repeat;
+}
+input#password {
+	background: #ffffff url('img/password.png') 4px center no-repeat;
+}
+
+ .title{
+    color: #fff;
+    display: absolute;
+    font-size: 20px;
+}
+
+.Inputs button{
+  margin-left: 180px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.Inputs button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.Inputs button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+
+
+.Border{
+    border-style: 1px solid blue;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #155b8e;
+    -moz-box-shadow: 0 0 10px 5px #054071;
+	-webkit-box-shadow: 0 0 10px 5px #054071;
+	box-shadow: 0 0 10px 5px #054071;
+    display: absolute;
+	
+}
+
+.Logo {
+    width: 150px;
+    height: 140px;
+	margin: 20px 1px 2px 12px;
+    float: left;
+    display: flex;
+    background: url('img/logo3.png') no-repeat;
+    background-size: contain;
+}
+
+.Alert {
+    position: absolute;
+    top: 37%;
+    left: 38%;
+    color: orange;
+  }
+
+.Credits{
+    position: fixed;
+    margin-top: 80vh;
+    color: #fff;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #fff; 
+}
+
+.Credits a:hover {
+     color: #E0E0E0; 
+}

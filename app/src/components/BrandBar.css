@@ -1,0 +1,12 @@
+/**
+ * CSS for the BrandBar component
+ * 
+ * @author Cristian Mitoi
+ */
+
+
+.navbar{
+    background-color: #2587dd;
+    border-color: black;
+    border-radius: 8px;
+  }
