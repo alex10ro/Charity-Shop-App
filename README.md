@@ -6,12 +6,12 @@ University: Northumbria
 
 Web Application:
       HomePage for buyers-end:
-https://cashed-benches.000webhostapp.com/dissertation/app/
+https://orange-panther-979806.hostingersite.com/app
       LoginPage for workers-end:
-https://cashed-benches.000webhostapp.com/dissertation/app/login
+https://orange-panther-979806.hostingersite.com/app/login
 
 API Documentation:
-https://cashed-benches.000webhostapp.com/dissertation/app/documentation
+https://orange-panther-979806.hostingersite.com/app/documentation
 
 Passwords:
 Shop workers log in:  JohnDoe espanol
@@ -34,13 +34,13 @@ Buyer-end:
 7. Press the confirm button when the popup appears.
 
 Workers-end:
-1. Access the LoginPage via a desktop or tablet (https://cashed-benches.000webhostapp.com/dissertation/app/)
+1. Access the LoginPage via a desktop or tablet (https://orange-panther-979806.hostingersite.com/app)
 2. Enter JohnDoe as username and espanol as password
 3. You can press on each individual message and either approve or dismiss them
 4. If you approved the messages sent om the previous stage (Buyers-end), it will automatically be sent to this email testfornorthumbria@gmail.com
 5. You can login to Gmail using testfornorthumbria@gmail.com and itisatest as password
 
 Admin-end:
-1. Access the LoginPage via a desktop or tablet (https://cashed-benches.000webhostapp.com/dissertation/app/)
+1. Access the LoginPage via a desktop or tablet (https://orange-panther-979806.hostingersite.com/app/login)
 2. Enter admin as username and admin as password
 3. You can press on each individual message and see who approved or dismissed them
